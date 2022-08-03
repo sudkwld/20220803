@@ -1,0 +1,524 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+ul,li,ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#top-nav {
+  background-color: #f8f8f8;
+  padding: 0;
+}
+
+#top-nav a {
+  color: #777;
+  font-size: 14px;
+}
+
+#top-nav .container {
+  width: 1188px;
+}
+
+#collasible-nav-dropdown {
+  margin-right: 20px;
+}
+
+#carousel-control .carousel-control-prev {
+  display: none;
+}
+
+#carousel-control .carousel-control-next {
+  display: none;
+}
+
+#carousel-control .intro-slide {
+  height: 600vh;
+}
+
+#carousel-control .carousel-caption {
+  text-align: left;
+  top: 20%;
+  padding: 0;
+}
+
+#carousel-control .carousel-caption p {
+  margin: 0;
+  font-weight: 400;
+}
+
+#carousel-control .carousel-caption h3 {
+  font-weight: 600;
+  font-size: 3vw;
+}
+
+.carousel-caption h4 {
+  color: #a6c76c;
+}
+
+.carousel-caption h6 span {
+  font-size: 3vw;
+  color: #a6c76c;
+}
+
+.carousel-caption button {
+  background-color: inherit;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 0.8vmax;
+  padding: 5px 20px;
+}
+
+.carousel-caption button:hover {
+  background-color: #a6c76c;
+  border: 1px solid #a6c76c;
+  transition: all 0.5s ease;
+}
+
+.App .container {
+  border-top: 1px solid #ebebeb;
+  padding: 50px 0 100px 0;
+}
+
+.App .container h4 {
+  padding: 10px 0 15px 0;
+  letter-spacing: -0.3px;
+  color: #333;
+}
+
+.App .container button {
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  color: #333;
+  padding: 8px 40px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.col-sm-4 a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.col-sm-4 a img {
+  width: 100%;
+  height: 280px;
+  padding-bottom: 10px;
+}
+
+.continue {
+  color: #333;
+}
+
+.footer-container p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.footer-container h5 {
+  font-size: 13px;
+  color: #333;
+}
+
+.call-number h3 {
+  color: #a6c76c;
+  font-size: 20px;
+}
+
+.footer-container h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-container li a {
+  text-decoration: none;
+  color: #777;
+}
+
+.footer-container li a:hover {
+  color: #a6c76c;
+  transition: all 0.5s ease;
+}
+
+@media screen and (min-width:1200px) {
+  .header-middle {
+    width: 1188px;
+    margin: 0 auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .search-container {
+    position: relative;
+  }
+
+  .search-input {
+    width: 600px;
+    border: 1px solid #d4d4d4;
+    padding: 10px 15px 10px 15px;
+  }
+
+  .mag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .header-icons {
+    display: flex;
+  }
+
+  .header-icon-box {
+    display: block;
+    text-align: center;
+    margin-right: 35px;
+  }
+
+  .header-icon-box:last-child {
+    margin-right: 0;
+  }
+
+  .header-icon-box p a {
+    text-decoration: none;
+    color: #777;
+    font-size: 11px;
+  }
+
+  .header-icon-img {
+    width: 25px;
+    height: 25px;
+    color: #555;
+  }
+
+  .header-icon-box:hover .header-icon-img {
+    color: #a6c76c;
+    transition: all 0.5s ease;
+  }
+
+  .header-bottom {
+    width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ebebeb;
+    padding: 15px 7px;
+  }
+  
+  .header-bottom a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .hamburger-icon {
+    font-size: 18px;
+  }
+
+  .hamburger a {
+    font-size: 14px;
+    color: #333;
+    
+  }
+
+  .menu {
+    width: 650px;
+    padding: 0 10px;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+  }
+
+  .menu li {
+    float: left;
+    margin-right: 30px;
+  }
+
+  .menu li:first-of-type {
+    margin-left: 30px;
+  }
+
+  .menu li:first-of-type a {
+    color: #a6c76c;
+  }
+
+  .menu li:last-of-type {
+    margin-right: 0;
+  }
+
+  .menu li a {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .bulb {
+    font-size: 14px;
+    color: #777;
+    font-weight: 500;
+  }
+
+  .bulb span {
+    color: #333;
+  }
+
+  .bulb-icon {
+    width: 12px;
+    height: 13px;
+    margin-right: 40px;
+    margin-left: -40px;
+  }
+
+  .other-label {
+    width: 100%;
+  }
+
+  .footer-top {
+    width: 100%;
+    background-color: #f7f7f7;
+  }
+
+  .other-logo {
+    width: 1188px;
+    min-width: 100%;
+    display: flex;
+  }
+  
+  .logo-box {
+    border: 1px solid #ebebeb;
+    border-right: none;
+    padding: 40px 0 30px 0;
+    width: 15%;
+    text-align: center;
+  }
+
+  .logo-box img {
+    height: 65%;
+  }
+
+  .logo-sign {
+    max-width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    padding: 28px 0;
+  }
+
+  .footer-icons {
+    font-size: 30px;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+  }
+
+  .logo-container h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .logo-container h5 {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .logo-text {
+    margin-left: 20px;
+  }
+
+  .promotion {
+    width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+  }
+
+  .promotion-container {
+    margin-right: 20px;
+    position: relative;
+  }
+
+  .promotion-box {
+    position: relative;
+  }
+
+  .promotion-text {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+
+  .p-6 {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+
+  .h-b {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .button-b {
+    border: 1px solid #959595;
+    color: #333;
+    background-color: inherit;
+    padding: 4px 15px;
+    font-size: 14px;
+  }
+
+  .promotion-text2 {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+  }
+
+  .promotion-text2 p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .h-w {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .button-w {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+
+  .promotion-text3 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .promotion-text3 p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .banner-last {
+    margin-bottom: 17px;
+  }
+  
+  .last-deals {
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .last-deals h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    padding-top: 60px;
+  }
+
+  .last-deals p {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .last-deals input {
+    background-color: #fff;
+    border: none;
+    font-size: 14px;
+  }
+
+  .last-deals input[type="email"] {
+    padding: 10px 150px 10px 20px;
+  }
+
+  .last-deals input[type="submit"] {
+    padding: 10px 20px 10px 150px;
+  }
+
+  footer {
+    max-width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0 10px 0;
+  }
+
+  .footer-container:first-of-type {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+  }
+
+  .footer-container ul li {
+    line-height: 35px;
+  }
+
+  .footer-container p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    height: 25px;
+  }
+
+  .call-number {
+    padding-right: 50px;
+  }
+
+
+}

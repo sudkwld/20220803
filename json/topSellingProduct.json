@@ -1,0 +1,54 @@
+[
+  {
+    id: 1,
+    product: 'lighting',
+    name: 'Petite Table Lamp',
+    price: '$401,00'
+  }, {
+    id: 2,
+    product: 'decor',
+    name: 'Madra Log Holder',
+    price: '$401,00'
+  }, {
+    id: 3,
+    product: 'furniture',
+    name: 'Garden Armchair',
+    price: '$94,00'
+  }, {
+    id: 4,
+    product: 'lighting',
+    name: 'Carronade Large Suspension Lamp',
+    price: '$401,00'
+  }, {
+    id: 5,
+    product: 'decor',
+    name: 'Original Outdoor Beanbag',
+    price: '$259,00'
+  }, {
+    id: 6,
+    product: 'furniture',
+    name: '2-Seater',
+    price: '$3.107,00'
+  }, {
+    id: 7,
+    product: 'furniture',
+    name: 'Wingback Chair',
+    price: '$2.486,00'
+  }, {
+    id: 8,
+    product: 'decor',
+    name: 'Cushion Set 3 Pieces',
+    price: '$199,00'
+  }, {
+    id: 9,
+    product: 'decor',
+    name: 'Cushion Set 3 Pieces',
+    price: '$199,00'
+  }, {
+    id: 10,
+    product: 'lighting',
+    name: 'Carronade Table Lamp',
+    price: '$499,00'
+  }
+
+]
